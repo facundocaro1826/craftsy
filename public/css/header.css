@@ -1,0 +1,55 @@
+    header.home-header{
+    background-color: red;
+    position: relative;
+}
+header.home-header img{
+
+padding: 15px;
+}
+header.home-header img a{
+
+}
+
+header.home-header div.menu{
+   display: inline-block;
+}
+
+header.home-header div.menu a{
+
+}
+
+header.home-header div.menu a i.fa-bars{
+display: inline-block;
+top: 20px;
+right: 15px;
+color: white;
+border: white solid 1px;
+padding: 8px 8px;
+border-radius: 2px;
+text-align: right;
+position: absolute;
+}
+nav.nav-var{
+ 
+    
+    
+}
+
+nav.nav-var ul{
+    padding: 0;
+    list-style: none;
+    /* display: inline-block; */
+}
+
+nav.nav-var ul li{
+    display: inline-block;
+}
+
+nav.nav-var ul li a{
+    
+}
+nav.nav-var a.registro{
+
+    
+    
+}
