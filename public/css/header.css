@@ -30,9 +30,7 @@ header.home-header div.menu a i.fa-bars{
 position: absolute;
 }
 nav.nav-var{
- 
-    
-    
+ display: none;
 }
 
 nav.nav-var ul{
