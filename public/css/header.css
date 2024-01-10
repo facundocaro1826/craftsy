@@ -1,4 +1,4 @@
-    header.home-header{
+header.home-header{
     background-color: red;
     position: relative;
 }
@@ -11,7 +11,8 @@ header.home-header img a{
 }
 
 header.home-header div.menu{
-   display: inline-block;
+   
+display: inline-block;
 }
 
 header.home-header div.menu a{
@@ -19,15 +20,24 @@ header.home-header div.menu a{
 }
 
 header.home-header div.menu a i.fa-bars{
-display: inline-block;
-top: 20px;
-right: 15px;
-color: white;
-border: white solid 1px;
-padding: 8px 8px;
-border-radius: 2px;
-text-align: right;
-position: absolute;
+
+display: inline-block;
+
+top: 20px;
+
+right: 15px;
+
+color: white;
+
+border: white solid 1px;
+
+padding: 8px 8px;
+
+border-radius: 2px;
+
+text-align: right;
+
+position: absolute;
 }
 nav.nav-var{
  
@@ -42,14 +52,70 @@ nav.nav-var ul{
 }
 
 nav.nav-var ul li{
-    display: inline-block;
+    
+display: inline-block;
 }
 
 nav.nav-var ul li a{
     
 }
 nav.nav-var a.registro{
+}
 
+/* header escritorio */
+
+@media (min-width: 768px) {
+    header.home-header{
+       
+display: flex;
+       
+justify-content: space-around;
+    }
+    header.home-header img{
+ 
+    }
+    header.home-header img a{
     
+    }
     
+    header.home-header div.menu{
+ 
+display: none;
+ 
+}
+    
+    header.home-header div.menu a{
+    
+    }
+    
+    header.home-header div.menu a i.fa-bars{
+ 
+    }
+    nav.nav-var{
+     
+        
+        
+    }
+    
+    nav.nav-var ul{
+ 
+line-height: 35px;
+ 
+}
+    
+    nav.nav-var ul li{
+ 
+    }
+    
+    nav.nav-var ul li a{
+        
+color: white;
+    }
+    header .login{
+        padding-top: 20px;
+    }
+    header .login a.registro{
+    color: white;
+    margin: 5px;
+    }
 }
