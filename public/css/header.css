@@ -1,6 +1,7 @@
-    header.home-header{
+header.home-header{
     background-color: red;
     position: relative;
+    /* display: flex; */
 }
 header.home-header img{
 
@@ -11,7 +12,8 @@ header.home-header img a{
 }
 
 header.home-header div.menu{
-   display: inline-block;
+   
+display: inline-block;
 }
 
 header.home-header div.menu a{
@@ -19,20 +21,27 @@ header.home-header div.menu a{
 }
 
 header.home-header div.menu a i.fa-bars{
-display: inline-block;
-top: 20px;
-right: 15px;
-color: white;
-border: white solid 1px;
-padding: 8px 8px;
-border-radius: 2px;
-text-align: right;
-position: absolute;
+
+display: inline-block;
+
+top: 20px;
+
+right: 15px;
+
+color: white;
+
+border: white solid 1px;
+
+padding: 8px 8px;
+
+border-radius: 2px;
+
+text-align: right;
+
+position: absolute;
 }
 nav.nav-var{
- 
-    
-    
+ display: none;
 }
 
 nav.nav-var ul{
@@ -42,7 +51,8 @@ nav.nav-var ul{
 }
 
 nav.nav-var ul li{
-    display: inline-block;
+    
+display: inline-block;
 }
 
 nav.nav-var ul li a{
@@ -50,6 +60,58 @@ nav.nav-var ul li a{
 }
 nav.nav-var a.registro{
 
+}
+
+/* header - tablet */
+
+@media (min-width: 425px) {
+    header.home-header{
+    display: flex;
+    justify-content: space-between;
+    }
+    header.home-header img{
     
+width: 100px;
+    }
+    header.home-header img a{
+    
+    }
+    
+    header.home-header div.menu{
+   
+    }
+    
+    header.home-header div.menu a{
+    
+    }
+    
+    header.home-header div.menu a i.fa-bars{
+    display: none;
+    }
+    nav.nav-var{
+    display: flex;
+    margin: 5px;
+    }
+    
+    nav.nav-var ul{
+    }
+    
+    nav.nav-var ul li{
+    color: white;
+    font-size: 10px;
+    }
+.nav.nav-var ul li a{
+        
+color: white;
+        
+font-size: 10px;
+    }
+.login{}    
+header .login a.registro{
+    color: white;
+    font-size: 10px;
+    display: inline-block;
+    margin-top: 25px;
+    }
     
 }
