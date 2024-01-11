@@ -1,7 +1,8 @@
 body{
-   
-    background-image: url(/images/bg-2.png);
-    margin: 0;
+   background-image: url(/images/bg-2.png);
+   margin: 0;
+   max-width: 480px;
+   margin: auto;
 }
 main.home-main{
 
@@ -16,12 +17,11 @@ margin-top: 15px;
 
 main.home-main div.producto{}
 
-main.home-main div.producto article.produc{
-}
+main.home-main div.producto article.produc{max-width: 480px;margin: auto;}
 
 main.home-main .producto .produc img.img-prod{
-
-margin: 17px;
+margin: 17px;
+width: 90%;
 }
 main.home-main .producto .produc h3{margin: 0;margin-left: 7px;}
 main.home-main .producto .produc p{
