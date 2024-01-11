@@ -56,18 +56,12 @@ padding: 5px;
 margin-bottom: 10px;
 }
 aside.tutorial article{
-
-display: flex;
-
-border: 2px solid #cedddf;
-
-width: 90%;
-
-margin: auto;
-
-margin-bottom: 10px;
-
-background-color: white;
+display: flex;
+border: 2px solid #cedddf;
+width: 90%;
+margin: auto;
+margin-bottom: 10px;
+background-color: white;
 }
 
 article {
@@ -117,11 +111,10 @@ aside.publicidad article img{
 
 @media (min-width: 768px) {
     body{
-
 }
     main.home-main{
-width: 80%;
-margin-left: 15px;
+width: 90%;
+margin-left: 5px;
 margin-top: 20px;
 }
     .container{
