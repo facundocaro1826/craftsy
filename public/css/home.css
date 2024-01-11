@@ -115,7 +115,10 @@ aside.publicidad article img{
     body{
    
 }
-    main.home-main{}
+    main.home-main{
+    margin: auto;
+    margin-top: 10px;
+}
     
     main.home-main div.producto{
     padding: 5px;
@@ -141,6 +144,8 @@ aside.publicidad article img{
     padding-top: 10px;
     margin: auto;
     width: 90%;
+    display: flex;
+    flex-wrap: wrap;
     }
 
     aside.tutorial h2{
@@ -150,6 +155,9 @@ aside.publicidad article img{
     aside.tutorial article{
         width: calc(50% - 2px);
         display: inline-block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
     
     article {
@@ -159,8 +167,7 @@ aside.publicidad article img{
 width: 45%;
     }
     aside.tutorial article h3{
-    
-font-size: 10px;
+    font-size: 14px;
     }
     
     /* aside publicidad  */

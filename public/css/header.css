@@ -67,7 +67,7 @@ nav.nav-var a.registro{
 @media (min-width: 425px) {
     header.home-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     }
     header.home-header img{
     
@@ -106,12 +106,15 @@ color: white;
         
 font-size: 10px;
     }
-.login{}    
+.login{
+    margin-right: 10px;
+}    
 header .login a.registro{
     color: white;
-    font-size: 10px;
+    font-size: 8px;
     display: inline-block;
     margin-top: 25px;
+    margin-right: 10px;
     }
     
 }
